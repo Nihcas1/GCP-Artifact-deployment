@@ -10,6 +10,8 @@ with open('model.pkl','rb') as file:
     model = pickle.load(file)
 
 
+
+
 #define the route
 @app.route('/predict', methods = ['POST'])
 def predict():    
